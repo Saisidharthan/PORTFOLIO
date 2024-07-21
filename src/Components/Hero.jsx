@@ -28,7 +28,7 @@ const Hero = () => {
                     <motion.p variants={container(1)}
                     initial="hidden"
                     animate="visible" className="max-w-xl pt-6 text-lg text-neutral-400 ml-auto mr-auto mt-3">{HERO_CONTENT}</motion.p>
-                        <motion.a variants={container(2)} initial="hidden" animate="visible" whileHover={{scale:1.1}} whileTap={{scale:0.9}} className='border-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent rounded-full px-8 py-4 my-5 mr-auto ml-auto' href='https://drive.google.com/file/d/1agMSc4trPt9Fl7WzdboKKF_HRfk7njsQ/view?usp=drive_link'>Resume</motion.a>
+                        <motion.a variants={container(2)} initial="hidden" animate="visible" whileHover={{scale:1.1}} whileTap={{scale:0.9}} className='border-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent rounded-full px-8 py-4 my-5 mr-auto ml-auto' href='https://drive.google.com/file/d/1agMSc4trPt9Fl7WzdboKKF_HRfk7njsQ/view?usp=sharing'>Resume</motion.a>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
