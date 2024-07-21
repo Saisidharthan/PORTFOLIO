@@ -13,7 +13,7 @@ export const PROJECTS = [
     image: project1,
     description:
       `JobFit AI provides personalized resume insights and job matching algorithms to enhance job seeker's opportunities. JobFit AI offers recruiters efficient resume screening and shortlisting, improving the hiring process and decision-making.`,
-    technologies: ["Streamlit", "GPT-4o", "Langchain", "Deeplake", "SQLite3"],
+    technologies: ["Streamlit", "GPT.4o", "Langchain", "Deeplake", "SQLite3"],
   },
   {
     title: "Spotify Clone",

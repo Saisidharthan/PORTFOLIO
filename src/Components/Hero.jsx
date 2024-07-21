@@ -33,9 +33,7 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <motion.img initial={{x:100,opacity:0}}
-                    transition={{duration:1,delay:1.5}}
-                    animate={{ x: [0, 100, 0],opacity:1 }}
+                    <motion.img whileInView={{opacity:1 , scale:1,x:0}} initial={{opacity:0, scale:0.7,x:-12}} transition={{duration:1.25}}  animate={{x: [0, 100, 0]}}
                      src={profilepic} alt="profilepic" className="h-[500px] w-[450px] rounded-lg mt-5 brightness-75" />
                 </div>
             </div>

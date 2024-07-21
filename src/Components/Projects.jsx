@@ -17,14 +17,14 @@ const Projects = () => {
                     <motion.div whileInView={{opacity:1,x:0}}
                     initial={{opacity:0,x:-100}}
                     transition={{duration:1}}
-                     className="w-full lg:w-1/4">
+                     className="w-full lg:w-1/4 sm:mr-10">
                         <img src={project.image} width={300} height={300} alt={project.title} className="mb-6 rounded" />
                     </motion.div>
                     <motion.div
                     whileInView={{opacity:1,x:0}}
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
-                     className="w-full max-w-xl lg:w-3/4">
+                     className="w-full max-w-xl lg:w-3/4 flex flex-wrap">
                         <h6 className="mb-4 font-semibold text-xl text-white">{project.title}</h6>
                         <p className="mb-6 text-neutral-400">{project.description}</p>
                         {project.technologies.map((tech,index)=>(

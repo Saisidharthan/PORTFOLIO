@@ -22,7 +22,7 @@ const About = () => {
                         transition={{duration:1}}
             className="w-full lg:w-1/2 mt-auto mb-auto">
                 <div className="flex justify-center lg:justify-start ">
-                    <p className="max-w-xl lg:pl-12 text-xl text-neutral-400">{ABOUT_TEXT}</p>
+                    <p className="max-w-xl lg:pl-12 text-xl text-neutral-400 sm:mt-10 mt-10">{ABOUT_TEXT}</p>
                 </div>
             </motion.div>
         </div>
