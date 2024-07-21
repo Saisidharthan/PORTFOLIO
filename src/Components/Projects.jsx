@@ -28,7 +28,7 @@ const Projects = () => {
                         <h6 className="mb-4 font-semibold text-xl text-white">{project.title}</h6>
                         <p className="mb-6 text-neutral-400">{project.description}</p>
                         {project.technologies.map((tech,index)=>(
-                            <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-0.5 text-sm font-medium text-purple-900 mt-2">{tech}</span>
+                            <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-0.5 text-base font-medium text-purple-900 mt-2">{tech}</span>
                         ))}
                     </motion.div>
                 </div>
